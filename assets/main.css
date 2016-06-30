@@ -1,5 +1,5 @@
 body {
-	background-color: #e6e6ff;
+	background-color: #ccccff;
 }
 
 
@@ -7,6 +7,17 @@ body {
 .navbar-inverse .navbar-brand {
 	font-size: 28px;
 	
+}
+
+#image {
+	position: center;
+}
+#text {
+   text-align: center;
+  color: black;
+  font-size: 4em;
+  font-weight: bold;
+  
 }
 
 
