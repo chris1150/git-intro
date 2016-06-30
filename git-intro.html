@@ -1,121 +1,190 @@
 <!doctype html>
 <html>
 	<head>
- 		<title></title>
+ 		
  			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  			<link rel="stylesheet" type="text/css" href="assets/main.css">
+
 	</head>
 <body>
 	<nav class="navbar navbar-inverse" style="background-color:green">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Git Intro</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-  </div>
+   		<a class="navbar-brand" href="#">Git Intro</a>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      			<ul class="nav navbar-nav">
+			       <li class="active"><a href="#">Home</a></li>
+			       <li><a href="#">About Me</a></li>
+	    	        <li><a href="#">Contact</a></li>
+     			</ul>
+   			 </div>
+  		</div>
+  	</div>
 </nav>
-	<div class="row">
-		
-	<div class="jumbotron">
-		
-    <img src="https://t4.ftcdn.net/jpg/00/99/16/73/240_F_99167308_3p5oJqnG1EatfGL4X2iJ0C9h4dRy03it.jpg" class="col-md-12">
-    
-       <h1>Welcome to .Net</h1>
-    
-	
-	
-</div>
-		<h1>Table</h1>
-	<hr>
-	<div class="row">
-		<div class="col-md-6">
-		<table class="table table-striped">
-			<thead>
-				<td>First Name</td>
-				<td>Last Name</td>
-			</thead>
-			<tbody>
-				<tr
-					><td>Chris</td>
-					<td>Wainscott</td>
-				</tr>
-				<tr>
-					<td>David</td>
-					<td>Mazmanian</td>
-				</tr>
-				<tr>
-					<td>Chloe</td>
-					<td>Tornquuis</td>
-				</tr>
-
-			</tbody>
-
-		</table>
+	<div class="container">	
+		<div class="Jumbotron">
+			<div class="row">
+				<img id="image" src="https://t4.ftcdn.net/jpg/00/99/16/73/240_F_99167308_3p5oJqnG1EatfGL4X2iJ0C9h4dRy03it.jpg" class="col-md-12" > 
+    				<p id="text">Welcome to .Net</p>
+    		</div>
 		</div>
-		
-		<div class="row">
-		<div class="col-md-6">
-		<table class="table table-striped">
-			<thead>
-				<td>Hobbies</td>
-				<td>Birthplace</td>
-			</thead>
-			<tbody>
-				<tr
-					><td>Coaching Soccer</td>
-					<td>Shelbyville, Indiana</td>
-				</tr>
-				<tr>
-					<td>David</td>
-					<td>Mazmanian</td>
-				</tr>
-				<tr>
-					<td>Chloe</td>
-					<td>Tornquuis</td>
-				</tr>
-
-			</tbody>
-		</table>
 	</div>
+<hr>
+<div class="container">
+	<div class="row">
+		<h1>Table</h1>
+			<div class="col-md-6">
+				<table class="table table-striped">
+					<thead>
+						<td>First Name</td>
+						<td>Last Name</td>
+					</thead>
+						<tbody>
+							<tr>
+								<td>Chris</td>
+								<td>Wainscott</td>
+							</tr>
 
-</div>
-<h1>Forms with bootstrap</h1>
+							<tr>
+								<td>David</td>
+								<td>Mazmanian</td>
+							</tr>
+
+							<tr>
+								<td>Chloe</td>
+								<td>Tornquuis</td>
+							</tr>
+
+						</tbody>
+				</table>
+			</div>
+	<div class="row">
+		<div class="col-md-6">
+				<table class="table table-striped">
+					<thead>
+						<td>Hobbies</td>
+						<td>Birthplace</td>
+					</thead>
+						<tbody>
+							<tr>
+								<td>Coaching Soccer</td>
+								<td>Shelbyville, Indiana</td>
+							</tr>
+				
+							<tr>
+								<td>David</td>
+								<td>Mazmanian</td>
+							</tr>
+				
+							<tr>
+								<td>Chloe</td>
+								<td>Tornquuis</td>
+							</tr>
+
+						</tbody>
+				</table>
+		</div>
+	</div>
+</div>	
 <hr>
 <form>
-	<div class="col-md-3">
-	<div class="form-group">
-		<label>First Name</label>
-		<input type="First Name" class="form-control" placeholder="First Name">
-	</div></div>
-	<div class="col-md-3">
-	<div class="form-group">
-		<label>Last Name</label>
-		<input type="Last Name" class="form-control" placeholder="Last Name">
-	</div></div>
-	<div class="col-md-3">
-	<div class="form-group">
-		<label>E-Mail</label>
-		<input type="email" class="form-control" placeholder="E-Mail">
-	</div></div>
-	<div class="col-md-3">
-	<div class="form-group">
-		<label class="password">Password</label>
-		<input type="password" class="form-control" placeholder="Password">
-	</div></div>
+	<div class="container">
+	<h1>Forms with bootstrap</h1>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label>First Name</label>
+					<input type="First Name" class="form-control" placeholder="First Name">
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label>Last Name</label>
+					<input type="Last Name" class="form-control" placeholder="Last Name">
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label>E-Mail</label>
+					<input type="email" class="form-control" placeholder="E-Mail">
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label class="password">Password</label>
+					<input type="password" class="form-control" placeholder="Password">
+			</div>	
+		</div>
+	</div>
 </form>
+<!--making 3 columns with photos on our site-->
+<div class="container">	
+	<div class="col-md-4">
+    	<div class="thumbnail">
+      		<img src="C:\Users\chris\Desktop\photo of kids 2 years ago.jpg" alt="photo of family">
+      			<div class="caption">
+        			<h3>Photo of my family</h3>
+        				<p>This is about my family</p>
+   				</div>
+  		</div>
+	</div>
+	<div class="col-md-4">
+    	<div class="thumbnail">
+      		<img src="C:\Users\chris\Desktop\photo of kids 2 years ago.jpg" alt="photo of kings island">
+      			<div class="caption">
+       				 <h3>This is our favorite place to go as a family</h3>
+        				<p>Our family goes to Kings Island at least 2 times a week.</p>
+       
+    			</div>
+  		</div>
+  	</div>
+    <div class="col-md-4">
+    	<div class="thumbnail">
+      		<img src="C:\Users\chris\Desktop\photo of kids 2 years ago.jpg" alt="photo of kings island">
+      			<div class="caption">
+       				 <h3>My career goals</h3>
+       					 <p>I have been in the trash business for 24 years and I am changing careers to web development. </p>
+      			</div>
+    	</div>
+  	</div>
+</div>
+</hr>
+
+<!-- this is the 3 things we want from this class-->
+<div class="container">
+  	<div class="col-md-4">
+		<div class="thumbnail">
+      		<div id="dedication">
+    	  		<div class="caption">
+        			<h3>My Dedication</h3>
+       			</div>
+  			</div>
+		</div>
+	</div> 
+ 	<div class="col-md-4">
+    	<div class="thumbnail">
+      		<div id="hardWorking">
+ 	     		<div class="caption">
+     	   			<h3>I am Hard Working</h3>
+       			</div>
+       		</div>
+		</div>
+	</div>
+ 	<div class="col-md-4">
+    	<div class="thumbnail">
+      		<div id="determination">
+   	   			<div class="caption">
+    	    		<h3>I am very determined.</h3>
+       			</div>
+			</div>
+		</div> 
+	</div> 
+</div>  
+  
 
 
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="message"></div>
+		<div id="info"></div>
+		<script type="text/javascript" src="assets/script.js"></script>
 </body>
 </html>
